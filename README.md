@@ -33,12 +33,12 @@ Windows x64 portable app. Quit the old version from the tray before opening the 
 
 ## v2.2.1 更新 / What’s new in v2.2.1
 
-- 参考 v2.1.9 恢复任务入场、悬浮窗切换和展开收起动画，消除重复动画覆盖。
-  Restored task and floating window motion based on v2.1.9, without competing animations.
-- 添加任务、确认弹窗和日期选择器都有打开与关闭过渡；日历翻页、主题切换及按钮反馈更完整。
-  Task entry, confirmations, and the date picker animate in and out, with calendar paging, theme, and button feedback.
-- 保留任务字号、滚轮、简洁导航、中性灰主题和应用内删除确认改进。
-  Keeps larger text, floating scrolling, shorter navigation, a neutral gray theme, and in-app confirmations.
+- 任务操作使用收缩、展开，列表自然补位；排序时卡片连续移动。
+  Task actions contract and expand in place, with smooth gap closing and card movement when sorting.
+- 月份分组、设置菜单支持连续开合，快速反向不跳变；页面与标签切换有简短交接。
+  Groups and menus open and close continuously, even during rapid toggles, with brief page and tab transitions.
+- 添加任务、确认框和日期选择器保留进退场，小窗尺寸变化也平滑衔接。
+  Task entry, confirmations, and the date picker animate in and out, including smooth compact editor resizing.
 
 本次修订仍为 v2.2.1；已经安装此版本时，请重新下载并替换 EXE，自动更新不会将相同版本视为新版本。
 This revision remains v2.2.1. Download and replace the EXE if you already have this version; the updater does not offer same-version revisions.
