@@ -33,13 +33,14 @@ Windows x64 portable app. Quit the old version from the tray before opening the 
 
 ## v2.2.1 更新 / What’s new in v2.2.1
 
-- 悬浮清单展开、收起和新增任务都有平滑过渡，快速切换也能正确收尾。
-  Smooth transitions when expanding, collapsing, and adding tasks in the floating list, with reliable rapid toggles.
-- 添加任务小窗在取消或保存后平滑退出，重复点击只保存一次。
-  The task editor closes smoothly after cancel or save; repeated clicks save only once.
-- 修复重复刷新打断动画，完整支持应用和系统的减少动态效果设置。
-  Fixed interrupted transitions from duplicate refreshes, with full app and system reduced motion support.
-- 包含 v2.2 的字号、滚轮、导航、灰色主题和应用内删除确认改进。
-  Includes v2.2 improvements to text size, scrolling, navigation, the gray theme, and in-app delete confirmations.
+- 参考 v2.1.9 恢复任务入场、悬浮窗切换和展开收起动画，消除重复动画覆盖。
+  Restored task and floating window motion based on v2.1.9, without competing animations.
+- 添加任务、确认弹窗和日期选择器都有打开与关闭过渡；日历翻页、主题切换及按钮反馈更完整。
+  Task entry, confirmations, and the date picker animate in and out, with calendar paging, theme, and button feedback.
+- 保留任务字号、滚轮、简洁导航、中性灰主题和应用内删除确认改进。
+  Keeps larger text, floating scrolling, shorter navigation, a neutral gray theme, and in-app confirmations.
+
+本次修订仍为 v2.2.1；已经安装此版本时，请重新下载并替换 EXE，自动更新不会将相同版本视为新版本。
+This revision remains v2.2.1. Download and replace the EXE if you already have this version; the updater does not offer same-version revisions.
 
 [查看各版本更新 / View all releases](https://github.com/frredomerror91-netizen/Deadline_app/releases)
